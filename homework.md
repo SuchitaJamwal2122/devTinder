@@ -67,3 +67,4 @@
 - Data Sanitization - Add API validations for each field
 - Install validator
 - Explore validator library functions and use validator functions for password, email , URL
+- NEVER TRUST req.body
