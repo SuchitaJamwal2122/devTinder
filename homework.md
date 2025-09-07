@@ -64,4 +64,4 @@
 - Improve the DB schema - Put all appropriate validations on each field in schema
 - All timestamps to the userSchema
 - Add API level validation on Patch request and Signup post API
-- Add API validations for each field
+- Data Sanitization - Add API validations for each field
