@@ -74,12 +74,13 @@ userSchema.methods.getJWT = async function () {
   const token = await jwt.sign({ _id: user._id }, "DEV@Tinder$790", {
     expiresIn: "1d",
   });
+
+  return token;
 };
 
 userSchema.methods.validatePassword = async function (inputPassword) {
   const user = this;
-  console.log("USerPAssword: ", inputPassword);
-  console.log(user.password);
+
   const isPasswordValid = await bcrypt.compare(inputPassword, user.password);
   return isPasswordValid;
 };
