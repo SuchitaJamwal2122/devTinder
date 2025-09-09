@@ -84,3 +84,5 @@
 - userAuth Middleware
 - Add the userAuth middleware in /profile API and a new sendConnectionRequest API
 - Send the expiry of JWT and cookies to 7 days
+- Create userSchema method to getJWT()
+- Create userSchema method to validatePassword(inputPassword)
