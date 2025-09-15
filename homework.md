@@ -109,3 +109,9 @@
 - Think about corner cases
 - $or query and $and query in mongoose - Read more about the logical queries
 - schema.pre("save") function
+
+- Write code with proper validation for POST /request/review/:status/:requestId
+- Thought process - POST vs GET
+- Read about ref and populate and how you create relation between them - https://mongoosejs.com/docs/populate.html
+- Create GET /user/requests/received with all the checks
+- Create GET /user/connections
