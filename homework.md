@@ -115,3 +115,15 @@
 - Read about ref and populate and how you create relation between them - https://mongoosejs.com/docs/populate.html
 - Create GET /user/requests/received with all the checks
 - Create GET /user/connections
+
+- Logic from GET /feed API
+- Explore the $nin, $ne, and other query operators
+- Pagination
+
+NOTES:
+
+/feed?page=1&limit=10 => first 10 users 1-10 => .skip(0) & .limit(10)
+/feed?page=2&limit=10 => 11-20 => .skip(10) & .limit(10)
+/feed?page=3&limit=10 => 21-30 => .skip(20) & .limit(10)
+
+skip = (page-1)\*limit
