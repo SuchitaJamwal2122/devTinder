@@ -4,7 +4,7 @@ const app = express(); //instance of an expressjs application
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
-app.use(cors);
+app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
 
