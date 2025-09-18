@@ -4,6 +4,7 @@ const app = express(); //instance of an expressjs application
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 require("dotenv").config();
+require("./utils/cronjob");
 
 app.use(
   cors({

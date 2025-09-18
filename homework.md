@@ -120,6 +120,19 @@
 - Explore the $nin, $ne, and other query operators
 - Pagination
 
+# Scheduling cron jobs in NodeJS
+
+- Installing node-cron
+- Learning about cron expressions syntax - crontab.guru
+- Schedule a job
+- date-fns
+- Find all the unique email Id who have got connection Requests in previous day
+- Send email
+- Explore queue mechanism to send bulk emails
+- Amazon SES bulk emails
+- Make send email function dynamic
+- bee-queue & bull npm packages (bulk mechanism)
+
 NOTES:
 
 /feed?page=1&limit=10 => first 10 users 1-10 => .skip(0) & .limit(10)
